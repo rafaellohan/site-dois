@@ -1,0 +1,58 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+body {
+    background: url(./imagens/unsplash.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+.logo {
+    line-height: 40px; /* altura */
+    float: left; /* pra ficar na esquerda */
+    color: #ffffff;
+    font-weight: bolder;
+    margin: 1.2em 0 0 2.2em;
+    z-index: 100; /* grau de transparencia */
+    position: relative;
+
+}
+
+.nav-quadrado {
+    height: 70px;  /* altura da barra */
+    width: 100%; /* tamanho da barra */
+    background-color: rgba(0, 0, 0,.5); /* cor da barra - obs - ela fica meio transparente, linda */
+    position: absolute;
+    align-items: center;
+}
+
+header {
+    line-height: 40px; /* altura dos botoes igual na .logo */
+    position: absolute;
+    right: 0; /* pra ela ir pra direita */
+}
+
+header ul li a {
+
+    padding-right: 36px; /* pra dar espaço entre os botoes */
+    color: #fff; /* cor deles */
+    text-decoration: none;
+    transition: 0.7s;
+    display: inline-block;  /* elas ficam um do lado da outra, os botoes */
+}
+
+header ul li {
+    display: inline-block;  /* elas ficam um do lado da outra, os botoes */
+}
+
+header ul li a:hover {
+    color: #bdc3c7;
+}
